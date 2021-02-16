@@ -14,5 +14,8 @@ class TestCase(unittest.TestCase):
     def test3(self):
         self.assertTrue(check_pwd("12345678"))
 
+    def test4(self):
+        self.assertTrue(check_pwd("12345678901234"))
+
 
         

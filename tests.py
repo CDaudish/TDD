@@ -8,5 +8,8 @@ class TestCase(unittest.TestCase):
     def test1(self):
         self.assertFalse(check_pwd(""))
 
+    def test2(self):
+        self.assertFalse(check_pwd("h"))
+
 
         
